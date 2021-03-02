@@ -66,6 +66,10 @@ client.connect(err => {
   });
 });
 
+app.get('/', (req, res) => {
+  res.status(200).send('welcome. db is working !!');
+})
+
 app.listen(process.env.PORT || port, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
