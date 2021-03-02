@@ -1,0 +1,5 @@
+DB_USER = asifJohn
+DB_PASS = emaJohnAsif
+DB_NAME = emaJohnSimple
+
+just for practice
